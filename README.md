@@ -6,6 +6,8 @@ wget https://raw.githubusercontent.com/zsdbbn/suoha-reality/main/suoha.sh -O suo
 ```
 ```
 curl https://www.baipiao.eu.org/suoha.sh -o suoha.sh && bash suoha.sh
+
+bash <(curl -fsSL https://raw.githubusercontent.com/ka234ka/suoha-reality/refs/heads/main/suoha.sh)
 ```
 -------->>>信息保存在 v2ray.txt,再次查看请运行<<<--------
 ```
