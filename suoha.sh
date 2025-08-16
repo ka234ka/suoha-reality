@@ -289,7 +289,7 @@ fi
 clear
 echo 复制下面的链接,用浏览器打开并授权需要绑定的域名
 echo 在网页中授权完毕后会继续进行下一步设置
-/opt/suoha/cloudflared-linux --edge-ip-version $ips --protocol http2 tunnel login
+/opt/suoha/cloudflared-linux --edge-ip-version $ips --protocol http2 tunnel login --no-launch-browser
 clear
 /opt/suoha/cloudflared-linux --edge-ip-version $ips --protocol http2 tunnel list >argo.log 2>&1
 echo -e ARGO TUNNEL当前已经绑定的服务如下'\n'
