@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
 echo "=== [1/5] 检查系统环境 ==="
 if ! grep -qi nixos /etc/os-release 2>/dev/null; then
   echo "⚠ 当前系统不是 NixOS，脚本可能不完全适配（IDX 通常是 NixOS）"
@@ -28,3 +27,4 @@ echo "=== [5/5] 登录 Cloudflare Tunnel ==="
 "$HOME/.nix-profile/bin/cloudflared" tunnel login
 
 echo "🎯 完成：请在浏览器打开上方输出的 URL 进行授权登录"
+
