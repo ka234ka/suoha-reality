@@ -16,12 +16,12 @@ cat v2ray.txt
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/ka234ka/suoha-reality/refs/heads/main/suoha.sh)
 ```
-```
+
 -------->>>信息保存在 workspace/suoha/node.txt,再次查看请运行<<<--------
 cat /workspace/suoha/node.txt
 
-
-
+```
+```
 # Alpine搭建reality协议
 ```
 apk update && apk add bash && wget https://raw.githubusercontent.com/zsdbbn/suoha-reality/main/reality.sh -O reality.sh && bash reality.sh
